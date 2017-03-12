@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+#permalink: /about/
 ---
 
 I am Parth Verma, a second year student pursuing Mathematics and Computing at IIT Kharagpur, India. This is a personal blog where I will try to share whatever I learn. I am interested in open-source programming and I love python.
