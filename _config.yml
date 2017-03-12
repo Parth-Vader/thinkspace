@@ -1,7 +1,8 @@
 
 # SEO settings
 title: "Think"
-title2: "space" # default: ""
+title2: "Write" 
+# default: ""
 description: "My personal blog"
 keywords: "blog,technology,tech,Parth Verma,IIT"
 url: http://parth-vader.github.io/ # site url
