@@ -1,7 +1,14 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-Thinkspace is a white clean, nerdy look and minimalist Jekyll theme designed for engineers to write their ranting and findings. This theme is best use for personal blog type or project-based blog. Font or typeface used is [Inconsolata](https://fonts.google.com/specimen/Inconsolata) by Google Web Fonts and [Font Awesome](http://fontawesome.io/). [Disqus](https://disqus.com/) comment is supported.
+I am Parth Verma, a second year student pursuing Mathematics and Computing at IIT Kharagpur, India. This is a personal blog where I will try to share whatever I learn. I am interested in open-source programming and I love python.
+
+My github profile is [Parth-Vader](github.com/Parth-Vader)
+### Contact
+
+* E-mail : vermaparth97[at]gmail[dot]com
+* Facebook : [ParthVerma4](www.fb.com/ParthVerma4)
+ 
