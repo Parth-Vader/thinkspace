@@ -32,7 +32,7 @@ sass:
 author:
   name     : "Parth Verma"
   job      : "Maths and Computing student at IIT Kharagpur"
-  bio      : "I try to learn something everyday"
+  bio      : "GSOC 2017 @Scrapy"
   thumb    : /images/author.jpg
   email    : vermaparth97@gmail.com
   url      : http://parth-vader.github.io
