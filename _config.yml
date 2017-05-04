@@ -32,7 +32,7 @@ sass:
 author:
   name     : "Parth Verma"
   job      : "Maths and Computing student at IIT Kharagpur"
-  bio      : "GSOC 2017 @Scrapy"
+  bio      : "Currently working on Scrapy Benchmarking Suite as a part of GSOC 2017."
   thumb    : /images/author.jpg
   email    : vermaparth97@gmail.com
   url      : http://parth-vader.github.io
