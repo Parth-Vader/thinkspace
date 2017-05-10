@@ -27,6 +27,8 @@ destination: ./_site
 sass:
   sass_dir: assets/scss
   style: compressed # expanded
+# Google services
+google_analytics: UA-98862634-1
 
 # Author settings
 author:
