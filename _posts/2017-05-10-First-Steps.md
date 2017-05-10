@@ -12,7 +12,7 @@ After getting the results, my mentor suggested to move the site to a local serve
 
 The spider was using around `35% CPU`, whereas the ideal value should be `100%` since we want the download process to be as fast as possible. We found out that since it was a static website, the spider would not take so much CPU.
 
-My next task is to test whether the benchmarking spider is stable or not. That would be done by taking a lot of test cases (around 50) and plot the values to check the distribution.
+My next task is to test whether the benchmarking spider is stable or not. That would be done by taking a lot of test cases (around 50) and plot the values to check the distribution. Also, I would be using `nginx` server instead of `Apache` server and see the results. Then, I would be testing the same for some other HTML files and see the results.
 
 ## Important Links found :
 
