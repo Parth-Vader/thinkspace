@@ -19,7 +19,7 @@ The result would be written into the file `AvSpeed.txt`.I started with the testi
 
 I then took all the data and used it to create a graph and calculate several statistical values : [Stabilty](https://github.com/Parth-Vader/bookscraper/tree/master/Stability).
 
-![Graph](https://github.com/Parth-Vader/bookscraper/blob/master/Stability/20170511033241.jpg)
+![Graph](https://raw.githubusercontent.com/Parth-Vader/bookscraper/master/Stability/20170511033241.jpg)
 		
 		Population size:50
 
