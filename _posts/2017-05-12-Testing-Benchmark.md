@@ -11,7 +11,7 @@ The spider performed better with `nginx`, so I continued to use it for further r
 
 The second (and more important) step was to test the stability of the benchmark. Stability means that the average speed of the benchmark should be quite similar under different circumstances. If several settings of the spider is changed one-by-one, there should not be much difference in the results. Also, the standard deviation of the results should be small enough.
 
-## Testing the stability
+## Collecting results and analysing
 
 I made some changes in the spider file `books.py`: I made it to calculate the total number of requests sent in the whole timespan, and since the spider ran for `30 seconds`, I multiplied the value by `2 (=60/30)` to give a `per minute average speed` 
 

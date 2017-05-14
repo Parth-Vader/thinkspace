@@ -7,10 +7,14 @@ keywords: "GSOC,2017,tech,parth,verma,scrapy,IIT,Kharagpur,koss"
 ---
 
 The previous [benchmarking spider](https://github.com/Parth-Vader/bookscraper) was not up to the mark because of the following reasons :
-	* It did not use around `100%` of my CPU.
-	* I had already defined the urls which were to be extracted in `urls.txt` file. Thus, this spider did not reflect a real case scenario.
-	* The [statistics](https://github.com/Parth-Vader/bookscraper/tree/master/Stability#testing-the-stability-of-the-benchmark) for the results of the benchmark showed the value of `MAD` was rather big.
-	* There were instances where the instantaneous scraping speed would be `zero` for some seconds.
+	
+* It did not use around `100%` of my CPU.
+
+* I had already defined the urls which were to be extracted in `urls.txt` file. Thus, this spider did not reflect a real case scenario.
+
+* The [statistics](https://github.com/Parth-Vader/bookscraper/tree/master/Stability#testing-the-stability-of-the-benchmark) for the results of the benchmark showed the value of `MAD` was rather big.
+
+* There were instances where the instantaneous scraping speed would be `zero` for some seconds.
 
 Because of the given reasons, I had to make a lot of changes in the spider. Fortunately, I found a `CPU-intensive` sample spider [`Followall`](https://github.com/scrapinghub/testspiders/blob/master/testspiders/spiders/followall.py).
 
