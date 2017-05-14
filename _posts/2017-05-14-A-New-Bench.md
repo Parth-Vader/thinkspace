@@ -32,7 +32,7 @@ Since the spider was able to perform all the requests within `30 seconds`, I fix
 
 I ran the spider for 50 times and collected the average speed data. The statistics for the results are as follows : 
 
-### per 20 seconds
+### Per 20 seconds
 
 	Population size:50
 
