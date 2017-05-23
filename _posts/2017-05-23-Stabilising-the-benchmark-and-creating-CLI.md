@@ -6,7 +6,7 @@ comments: true
 keywords: "GSOC,2017,tech,parth,verma,scrapy,IIT,Kharagpur,koss"
 ---
 
-In the previous [post]() I had mentioned that I had created a new base spider for the benchmark. The [spider]() had previously shown better stability but was not stable enough to detect small defects. 
+In the previous [post](https://parth-vader.github.io/2017/A-New-Bench/) I had mentioned that I had created a new base spider for the benchmark. The [spider](https://github.com/Parth-Vader/benchmarknew) had previously shown better stability but was not stable enough to detect small defects. 
 
 Hence, I started with changing the settings to 
 
