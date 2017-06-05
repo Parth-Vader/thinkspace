@@ -44,7 +44,7 @@ Now, if I am scraping a site that contains book information, I would like to ext
 	    rating = scrapy.Field()
 	    price = scrapy.Field()
 	    category = scrapy.Field()
-		stock = scrapy.Field()
+	    stock = scrapy.Field()
 
 The base url is `'http://localhost/books.toscrape.com/index.html'`, and the scraping begins here.
 In the `parse()` method of the scrapy spider, the starting time for the spider, the number of pages crawled in `self.items`, and the current time using `datetime.datetime.utcnow()` are stored. Using the two values, the time difference is calculated. When the spider closes, the ratio of total items scraped and the total time (in seconds) is written to the file `Benchmark.txt`, as well as printed. This is the average speed of the spider in items/sec.
@@ -57,108 +57,112 @@ In the `bench.py` file, when `bookworm` is selected, the command `scrapy crawl f
 
 * Python 2.7 Scrapy 1.4
 
-	Test = 'Book Spider' Iterations = '20'
+		The results of the benchmark are (all speeds in items/sec) :
+		
+		Test = 'Book Spider' Iterations = '20'
 
 
-	Mean : 60.1438075176 Median : 60.1091579591 Std Dev : 0.720698025263
+		Mean : 60.1438075176 Median : 60.1091579591 Std Dev : 0.720698025263
 
-	http://vmprof.com/#/30d2ce4b-3d2f-492a-b470-64a5ffab41e6
+		http://vmprof.com/#/30d2ce4b-3d2f-492a-b470-64a5ffab41e6
 
 * Python 2.7 Scrapy 1.3
 
-Note that twisted : 16.6 was used from here on.
+ Note that twisted : 16.6 was used from here on.
 
-The results of the benchmark are (all speeds in items/sec) : 
-
-
-Test = 'Book Spider' Iterations = '20'
+		The results of the benchmark are (all speeds in items/sec) : 
 
 
-Mean : 66.7639932167 Median : 66.9154480459 Std Dev : 0.953131520366
+		Test = 'Book Spider' Iterations = '20'
+
+
+		Mean : 66.7639932167 Median : 66.9154480459 Std Dev : 0.953131520366
 
 
 http://vmprof.com/#/932297de-8d0e-4893-9ccd-05e17a6a4d76
 
 * Python 2.7 Scrapy 1.2
 
-The results of the benchmark are (all speeds in items/sec) : 
+		The results of the benchmark are (all speeds in items/sec) : 
 
 
-Test = 'Book Spider' Iterations = '20'
+		Test = 'Book Spider' Iterations = '20'
 
 
-Mean : 65.9508252449 Median : 66.1012409785 Std Dev : 1.29111415588
+		Mean : 65.9508252449 Median : 66.1012409785 Std Dev : 1.29111415588
 
 http://vmprof.com/#/5f8ff5fd-8c4a-42fa-a7e8-e1c3fcfb3913	
 
 * Python 2.7 Scrapy 1.1
 
-The results of the benchmark are (all speeds in items/sec) : 
+		The results of the benchmark are (all speeds in items/sec) : 
 
 
-Test = 'Book Spider' Iterations = '20'
+		Test = 'Book Spider' Iterations = '20'
 
 
-Mean : 65.9597930817 Median : 66.0463768027 Std Dev : 0.719872919193
+		Mean : 65.9597930817 Median : 66.0463768027 Std Dev : 0.719872919193
 
 http://vmprof.com/#/55b58b44-0b3f-4407-972e-4d89237ae217
 
 * Python 2.7 Scrapy 1.0
 
-The results of the benchmark are (all speeds in items/sec) : 
+		The results of the benchmark are (all speeds in items/sec) : 
 
 
-Test = 'Book Spider' Iterations = '20'
+		Test = 'Book Spider' Iterations = '20'
 
 
-Mean : 69.242276661 Median : 69.6641860445 Std Dev : 0.804613826623
+		Mean : 69.242276661 Median : 69.6641860445 Std Dev : 0.804613826623
 
 http://vmprof.com/#/97ea79ee-a374-4a09-9b11-5e1b93e45203
 
 * Python 3.5 Scrapy 1.4
 
-The results of the benchmark are (all speeds in items/sec) : 
+		The results of the benchmark are (all speeds in items/sec) : 
 
 
-Test = 'Book Spider' Iterations = '20'
+		Test = 'Book Spider' Iterations = '20'
 
 
-Mean : 52.842243412731385 Median : 53.022207332934386 Std Dev : 1.0496274427385723
+		Mean : 52.842243412731385 Median : 53.022207332934386 Std Dev : 1.0496274427385723
 
 http://vmprof.com/#/7074fdf8-12e5-4043-ad6b-f9a8014cffd7
 
 * Python 3.5 Scrapy 1.3
 
-Note that twisted : 16.6 was used from here on.
-The results of the benchmark are (all speeds in items/sec) : 
+  Note that twisted : 16.6 was used from here on.
+		
+		The results of the benchmark are (all speeds in items/sec) : 
 
 
-Test = 'Book Spider' Iterations = '20'
+		Test = 'Book Spider' Iterations = '20'
 
 
-Mean : 59.73166463841136 Median : 59.73609164034931 Std Dev : 0.8273136793364986
+		Mean : 59.73166463841136 Median : 59.73609164034931 Std Dev : 0.8273136793364986
 
 http://vmprof.com/#/7965b4e2-bf08-45ba-9102-4088b56ea395
 
 * Python 3.5 Scrapy 1.2
 
-The results of the benchmark are (all speeds in items/sec) : 
+		The results of the benchmark are (all speeds in items/sec) : 
 
 
-Test = 'Book Spider' Iterations = '20'
+		Test = 'Book Spider' Iterations = '20'
 
 
-Mean : 59.67545483270658 Median : 59.7188908945411 Std Dev : 0.6111999538927791
+		Mean : 59.67545483270658 Median : 59.7188908945411 Std Dev : 0.6111999538927791
 
 http://vmprof.com/#/e6fec801-e3e8-4fb9-96d2-05b1feb45a8d
 
 * Python 3.5 Scrapy 1.1
-The results of the benchmark are (all speeds in items/sec) : 
+		
+		The results of the benchmark are (all speeds in items/sec) : 
 
 
-Test = 'Book Spider' Iterations = '20'
+		Test = 'Book Spider' Iterations = '20'
 
 
-Mean : 58.91004618342678 Median : 59.18484816356225 Std Dev : 0.8001899605637971
+		Mean : 58.91004618342678 Median : 59.18484816356225 Std Dev : 0.8001899605637971
 
 http://vmprof.com/#/6d2526d3-3698-4a41-b1c8-45635df607ce
