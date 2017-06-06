@@ -17,7 +17,7 @@ In this blog post, I will describe the `scrapy-bench bookworm` benchmark.
 
 The spider in the bookworm is based on [FollowAll.py](https://github.com/scrapinghub/testspiders/blob/master/testspiders/spiders/followall.py). I used this spider because it only requires a starting url, and then crawls every link present. Another important feature was that it utilised 100% CPU, something that my [previous benchmark](https://github.com/Parth-Vader/bookscraper) did not do.
 
-The spider scrapes a locally hosted vesion of [Books to Scrape](books.toscrape.com/index.html). This site was used because, well, it is designed to scraped, and it is static. So I used `wget` to download it, and hosted it on a nginx server. The instructions to do the same are present [here](https://github.com/Parth-Vader/Scrapy-BenchCLI#for-ubuntu).
+The spider scrapes a locally hosted vesion of [Books to Scrape](http://books.toscrape.com/index.html). This site was used because, well, it is designed to scraped, and it is static. So I used `wget` to download it, and hosted it on a nginx server. The instructions to do the same are present [here](https://github.com/Parth-Vader/Scrapy-BenchCLI#for-ubuntu).
 
 In my previous blog posts, I have mentioned the various effects of different settings on the benchmark stability. The final settings used in the spider are :
 
