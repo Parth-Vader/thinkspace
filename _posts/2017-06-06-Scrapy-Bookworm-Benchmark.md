@@ -11,7 +11,7 @@ It has two benchmarks as of now:
 *	Bookworm : Runs a CPU-intesive scrapy spider to follow all links and scrape different features from a static snapshot of [Books To Scrape](http://books.toscrape.com/).
 *   Link Extractor : Uses LinkExtractor() to extract links from a collection of HTML pages downloaded using a scrapy spider from `Alexa Top Sites` list.
 
-In this blog post, I will describe the `scrapy-bench bookworm` benchmark. Firstly I'll describe the methodology, which is followed by the results and their summary.
+In this blog post, I will describe the `scrapy-bench bookworm` benchmark. Firstly I'll describe the methodology, which is followed by the comparison of the results in different environments and their summary.
 
 ## Methodology
 
