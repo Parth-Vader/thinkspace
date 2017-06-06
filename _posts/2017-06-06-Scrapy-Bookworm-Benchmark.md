@@ -85,7 +85,6 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/30d2
 
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/932297de-8d0e-4893-9ccd-05e17a6a4d76).
 
-![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/21.3.png)
 
 
 * Python 2.7 Scrapy 1.2
@@ -100,7 +99,7 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/9322
 
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/5f8ff5fd-8c4a-42fa-a7e8-e1c3fcfb3913).
 
-![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/21.2.png)
+
 
 * Python 2.7 Scrapy 1.1
 
@@ -114,7 +113,7 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/5f8f
 
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/55b58b44-0b3f-4407-972e-4d89237ae217).
 
-![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/21.1.png)
+
 
 * Python 2.7 Scrapy 1.0
 
@@ -128,7 +127,7 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/55b5
 
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/97ea79ee-a374-4a09-9b11-5e1b93e45203).
 
-![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/21.0.png)
+
 
 * Python 3.5 Scrapy 1.4
 
@@ -142,7 +141,7 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/97ea
 
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/7074fdf8-12e5-4043-ad6b-f9a8014cffd7).
 
-![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/31.4.png)
+
 
 * Python 3.5 Scrapy 1.3
 
@@ -158,7 +157,6 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/7074
 
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/7965b4e2-bf08-45ba-9102-4088b56ea395).
 
-![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/31.3.png)
 
 * Python 3.5 Scrapy 1.2
 
@@ -172,7 +170,7 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/7965
 
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/e6fec801-e3e8-4fb9-96d2-05b1feb45a8d).
 
-![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/31.2.png)
+
 
 * Python 3.5 Scrapy 1.1
 		
@@ -186,7 +184,22 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/e6fe
 
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/6d2526d3-3698-4a41-b1c8-45635df607ce).
 
-![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/31.1.png)
 
-Results :
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~vermaparth97/3.embed"></iframe>
+
+## Results Summary :
+
+| Environment           	| Mean               	| Median             	| Standard Deviation 	| Profiling Results                                                  	|
+|-----------------------	|--------------------	|--------------------	|--------------------	|--------------------------------------------------------------------	|
+| Python 2.7 Scrapy 1.4 	| 60.1438075176      	| 60.1091579591      	| 0.720698025263     	| [Result](http://vmprof.com/#/30d2ce4b-3d2f-492a-b470-64a5ffab41e6)   	|
+| Python 2.7 Scrapy 1.3 	| 66.7639932167      	| 66.9154480459      	| 0.953131520366     	| [Result](http://vmprof.com/#/932297de-8d0e-4893-9ccd-05e17a6a4d76) 	|
+| Python 2.7 Scrapy 1.2 	| 65.9508252449      	| 66.1012409785      	| 1.29111415588      	| [Result](http://vmprof.com/#/5f8ff5fd-8c4a-42fa-a7e8-e1c3fcfb3913) 	|
+| Python 2.7 Scrapy 1.1 	| 65.9597930817      	| 66.0463768027      	| 0.719872919193     	| [Result](http://vmprof.com/#/55b58b44-0b3f-4407-972e-4d89237ae217) 	|
+| Python 2.7 Scrapy 1.0 	| 69.242276661       	| 69.6641860445      	| 0.804613826623     	| [Result](http://vmprof.com/#/97ea79ee-a374-4a09-9b11-5e1b93e45203) 	|
+| Python 3.5 Scrapy 1.4 	| 52.842243412731385 	| 53.022207332934386 	| 1.0496274427385723 	| [Result](http://vmprof.com/#/7074fdf8-12e5-4043-ad6b-f9a8014cffd7) 	|
+| Python 3.5 Scrapy 1.3 	| 59.73166463841136  	| 59.73609164034931  	| 0.8273136793364986 	| [Result](http://vmprof.com/#/7965b4e2-bf08-45ba-9102-4088b56ea395) 	|
+| Python 3.5 Scrapy 1.2 	| 59.67545483270658  	| 59.7188908945411   	| 0.6111999538927791 	| [Result](http://vmprof.com/#/e6fec801-e3e8-4fb9-96d2-05b1feb45a8d) 	|
+| Python 3.5 Scrapy 1.1 	| 58.91004618342678  	| 59.18484816356225  	| 0.8001899605637971 	| [Result](http://vmprof.com/#/6d2526d3-3698-4a41-b1c8-45635df607ce) 	|
+* Mean Speed vs Environment
+<iframe width="1100" height="600" frameborder="0" scrolling="no" src="//plot.ly/~vermaparth97/3.embed"></iframe>
+* 
+
