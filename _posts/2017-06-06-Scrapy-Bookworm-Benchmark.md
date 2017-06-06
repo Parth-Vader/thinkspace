@@ -11,7 +11,7 @@ It has two benchmarks as of now:
 *	Bookworm : Runs a CPU-intesive scrapy spider to follow all links and scrape different features from a static snapshot of [Books To Scrape](http://books.toscrape.com/).
 *   Link Extractor : Uses LinkExtractor() to extract links from a collection of HTML pages downloaded using a scrapy spider from `Alexa Top Sites` list.
 
-In this blog post, I will describe the `scrapy-bench bookworm` benchmark. Firstly I'll describe the methodology, then the results are described.
+In this blog post, I will describe the `scrapy-bench bookworm` benchmark. Firstly I'll describe the methodology, which is followed by the results and their summary.
 
 ## Methodology
 
@@ -189,27 +189,29 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/6d25
 ## Results Summary :
 
 * Results table
+
 ![Table](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/table.png)
 
 * Profiling results list
 
-Python 2.7 Scrapy 1.4	- [Result](http://vmprof.com/#/30d2ce4b-3d2f-492a-b470-64a5ffab41e6)		
+	* Python 2.7 Scrapy 1.4	- [Result](http://vmprof.com/#/30d2ce4b-3d2f-492a-b470-64a5ffab41e6)		
 
-Python 2.7 Scrapy 1.3	- [Result](http://vmprof.com/#/932297de-8d0e-4893-9ccd-05e17a6a4d76)
+	* Python 2.7 Scrapy 1.3	- [Result](http://vmprof.com/#/932297de-8d0e-4893-9ccd-05e17a6a4d76)
 
-Python 2.7 Scrapy 1.2	- [Result](http://vmprof.com/#/5f8ff5fd-8c4a-42fa-a7e8-e1c3fcfb3913)
+	* Python 2.7 Scrapy 1.2	- [Result](http://vmprof.com/#/5f8ff5fd-8c4a-42fa-a7e8-e1c3fcfb3913)
 
-Python 2.7 Scrapy 1.1	- [Result](http://vmprof.com/#/55b58b44-0b3f-4407-972e-4d89237ae217)
+	* Python 2.7 Scrapy 1.1	- [Result](http://vmprof.com/#/55b58b44-0b3f-4407-972e-4d89237ae217)
 
-Python 2.7 Scrapy 1.0	- [Result](http://vmprof.com/#/97ea79ee-a374-4a09-9b11-5e1b93e45203)
+	* Python 2.7 Scrapy 1.0	- [Result](http://vmprof.com/#/97ea79ee-a374-4a09-9b11-5e1b93e45203)
 
-Python 3.5 Scrapy 1.4	- [Result](http://vmprof.com/#/7074fdf8-12e5-4043-ad6b-f9a8014cffd7)	
+	* Python 3.5 Scrapy 1.4	- [Result](http://vmprof.com/#/7074fdf8-12e5-4043-ad6b-f9a8014cffd7)	
 
-Python 3.5 Scrapy 1.3	- [Result](http://vmprof.com/#/7965b4e2-bf08-45ba-9102-4088b56ea395)
+	* Python 3.5 Scrapy 1.3	- [Result](http://vmprof.com/#/7965b4e2-bf08-45ba-9102-4088b56ea395)
 
-Python 3.5 Scrapy 1.2	- [Result](http://vmprof.com/#/e6fec801-e3e8-4fb9-96d2-05b1feb45a8d)
+	* Python 3.5 Scrapy 1.2	- [Result](http://vmprof.com/#/e6fec801-e3e8-4fb9-96d2-05b1feb45a8d)
 
-Python 3.5 Scrapy 1.1	- [Result](http://vmprof.com/#/6d2526d3-3698-4a41-b1c8-45635df607ce)
+	* Python 3.5 Scrapy 1.1	- [Result](http://vmprof.com/#/6d2526d3-3698-4a41-b1c8-45635df607ce)
+
 
 * Mean Speed vs Environment
 <iframe width="1000" height="600" frameborder="0" scrolling="no" src="//plot.ly/~vermaparth97/3.embed"></iframe>
