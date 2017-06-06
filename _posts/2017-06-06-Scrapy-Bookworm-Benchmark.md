@@ -73,7 +73,7 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/30d2
 
 * Python 2.7 Scrapy 1.3
 
- Note that twisted : 16.6 was used from here on.
+ Note that `twisted : 16.6` was used from here on.
 
 		The results of the benchmark are (all speeds in items/sec) : 
 
@@ -146,7 +146,7 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/7074
 
 * Python 3.5 Scrapy 1.3
 
-  Note that twisted : 16.6 was used from here on.
+  Note that `twisted : 16.6` was used from here on.
 		
 		The results of the benchmark are (all speeds in items/sec) : 
 
