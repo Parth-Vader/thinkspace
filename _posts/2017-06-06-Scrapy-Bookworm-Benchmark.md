@@ -11,7 +11,7 @@ It has two benchmarks as of now:
 *	Bookworm : Runs a CPU-intesive scrapy spider to follow all links and scrape different features from a static snapshot of [Books To Scrape](http://books.toscrape.com/).
 *   Link Extractor : Uses LinkExtractor() to extract links from a collection of HTML pages downloaded using a scrapy spider from `Alexa Top Sites` list.
 
-In this blog post, I will describe the `scrapy-bench bookworm` benchmark.
+In this blog post, I will describe the `scrapy-bench bookworm` benchmark. Firstly I'll describe the methodology, then the results are described.
 
 ## Methodology
 
@@ -187,3 +187,6 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/e6fe
 The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/6d2526d3-3698-4a41-b1c8-45635df607ce).
 
 ![flamegraph](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/31.1.png)
+
+Results :
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~vermaparth97/3.embed"></iframe>
