@@ -8,7 +8,7 @@ keywords: "GSOC,2017,tech,parth,verma,scrapy,IIT,Kharagpur,koss"
 I'm currently working on the command line tool for benchmarking scrapy : [Scrapy-BenchCLI](https://github.com/Parth-Vader/Scrapy-BenchCLI).
 It has two benchmarks as of now: 
 
-*	Bookworm : Runs a CPU-intesive scrapy spider to follow all links and scrape different features from a static snapshot of [Books to Scrape](books.toscrape.com/index.html).
+*	Bookworm : Runs a CPU-intesive scrapy spider to follow all links and scrape different features from a static snapshot of [Books To Scrape](http://books.toscrape.com/).
 *   Link Extractor : Uses LinkExtractor() to extract links from a collection of HTML pages downloaded using a scrapy spider from `Alexa Top Sites` list.
 
 In this blog post, I will describe the `scrapy-bench bookworm` benchmark.
@@ -17,7 +17,7 @@ In this blog post, I will describe the `scrapy-bench bookworm` benchmark.
 
 The spider in the bookworm is based on [FollowAll.py](https://github.com/scrapinghub/testspiders/blob/master/testspiders/spiders/followall.py). I used this spider because it only requires a starting url, and then crawls every link present. Another important feature was that it utilised 100% CPU, something that my [previous benchmark](https://github.com/Parth-Vader/bookscraper) did not do.
 
-The spider scrapes a locally hosted vesion of [Books to Scrape](http://books.toscrape.com/index.html). This site was used because, well, it is designed to scraped, and it is static. So I used `wget` to download it, and hosted it on a nginx server. The instructions to do the same are present [here](https://github.com/Parth-Vader/Scrapy-BenchCLI#for-ubuntu).
+The spider scrapes a locally hosted vesion of [Books To Scrape](http://books.toscrape.com/). This site was used because, well, it is designed to scraped, and it is static. So I used `wget` to download it, and hosted it on a nginx server. The instructions to do the same are present [here](https://github.com/Parth-Vader/Scrapy-BenchCLI#for-ubuntu).
 
 In my previous blog posts, I have mentioned the various effects of different settings on the benchmark stability. The final settings used in the spider are :
 
