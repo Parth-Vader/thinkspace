@@ -190,7 +190,7 @@ The flamegraph for `vmprof` profiling is present [here](http://vmprof.com/#/6d25
 
 * Results table
 
-![Table](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/table.png)
+![Table](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/tablenew.png)
 
 * Profiling results list
 
