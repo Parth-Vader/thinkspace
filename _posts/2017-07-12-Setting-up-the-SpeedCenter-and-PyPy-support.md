@@ -8,13 +8,13 @@ keywords: "GSOC,2017,tech,parth,verma,scrapy,IIT,Kharagpur,koss"
 
 ## Speedcenter
 
-In my previous post, I had mentioned[Speedcenter](https://github.com/scrapy/scrapy-bench-speedcenter) for storing of results of the benchmarks. There were some changes made to it, and it is almost ready to be deployed on the web.
+In my previous post, I had mentioned [Speedcenter](https://github.com/scrapy/scrapy-bench-speedcenter) for storing of results of the benchmarks. There were some changes made to it, and it is almost ready to be deployed on the web.
 
 My goal is to create something like [PyPy Speedcenter](http://speed.pypy.org/) for scrapy, so that we can track it's performance on the basis of various benchmarks of [scrapy-bench](https://github.com/scrapy/scrapy-bench/), with each commit as well in various environments. This will give a clear idea as to how scrapy is performing on various hardware.
 
 Following are some screenshots of various tabs for the app : 
 
-![home](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/home.png)https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/home.png
+![home](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/home.png)
 
 ![changes](https://raw.githubusercontent.com/Parth-Vader/parth-vader.github.io/master/assets/images/changes.png)
 
