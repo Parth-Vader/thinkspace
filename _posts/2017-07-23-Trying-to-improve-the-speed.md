@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trying to improve parsel"
+title: "Trying to improve the speed"
 description: "Caching for the function css_2xpath()"
 comments: true
 keywords: "GSOC,2017,tech,parth,verma,scrapy,IIT,Kharagpur,koss"
