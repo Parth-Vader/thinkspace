@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Creating a broad crawl benchmark and increasing speed"
-description: "Broad crawl using twisted server"
+title: "Final Report"
+description: "Final Report"
 comments: true
 keywords: "GSOC,2017,tech,parth,verma,scrapy,IIT,Kharagpur,koss"
 ---
@@ -14,6 +14,7 @@ keywords: "GSOC,2017,tech,parth,verma,scrapy,IIT,Kharagpur,koss"
 
 >Firstly, I would like to thank my mentors Konstantin and Paul for guiding me through the project, reviewing my code, pointing out ways for improvement and, above all, maintaining the incredibly motivating atmosphere.
 Scrapy is a fun organisation to work with — the developers are very responsive and helpful. Working with them will be an invaluable experience.
+
 ## About Scrapy
 
 Scrapy is a free and open source web crawling framework, written in Python. It has a lot of helpful features, and is very beginner friendly. It’s one of the few repositories on Github with 20k+ stars.
@@ -86,7 +87,9 @@ Following are the areas where improvement could be done :-
 * Shift the [PR](https://github.com/scrapy/cssselect/pull/79) to parsel so that it can be merged without affecting other organisations who rely on cssselect .
 
 ## Important Links
-* Scrapy-Bench : https://github.com/scrapy/scrapy-bench/
-* Scrapy-Bench-Speedcenter : https://github.com/scrapy/scrapy-bench-speedcenter/
-* css_to_xpath() caching PR : https://github.com/scrapy/cssselect/pull/79 (open)
-* My blog : https://parth-vader.github.io/
+* Scrapy-Bench : [https://github.com/scrapy/scrapy-bench/](https://github.com/scrapy/scrapy-bench/)
+* Scrapy-Bench-Speedcenter : [https://github.com/scrapy/scrapy-bench-speedcenter](https://github.com/scrapy/scrapy-bench-speedcenter/)
+* css_to_xpath() caching PR : [https://github.com/scrapy/cssselect/pull/79](https://github.com/scrapy/cssselect/pull/79) (open)
+* My blog : [https://parth-vader.github.io/](https://parth-vader.github.io/)
+
+Original Post at [Medium](https://medium.com/@vermaparth/parth-gsoc-f5556ffa4025).
