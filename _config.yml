@@ -33,8 +33,8 @@ google_analytics: UA-98862634-1
 # Author settings
 author:
   name     : "Parth Verma"
-  job      : "Maths and Computing student at IIT Kharagpur"
-  bio      : "Currently working on Scrapy Benchmarking Suite as a part of GSOC 2017."
+  job      : "Mathematics and Computing student at IIT Kharagpur"
+  bio      : "Worked on Scrapy Benchmarking Suite as a part of GSOC 2017. This serves as a collection of blog posts depicting my journey."
   thumb    : /images/author.jpg
   email    : vermaparth97@gmail.com
   url      : http://parth-vader.github.io
