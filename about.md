@@ -4,7 +4,7 @@ title: About me
 #permalink: /about/
 ---
 
-I am Parth Verma, a third year student pursuing a dual degree (BSc + MSc) in Mathematics and Computing (batch of 2020) at IIT Kharagpur, India. I hail from Lucknow, Uttar Pradesh, and currently residing at Vadodara, Gujarat.
+I am Parth Verma, a third year student pursuing a dual degree in Mathematics and Computing (batch of 2020) at IIT Kharagpur, India. I hail from Lucknow, Uttar Pradesh, and currently residing at Vadodara, Gujarat.
 
 I'm an open-source enthusiast who loves coding in C++, and Python. My best work till date is a project on Scrapy Benchmarking under GSoC 2017. I have been currently diving into the world of AI and ML, and have been doing some MOOCs on it. 
 
